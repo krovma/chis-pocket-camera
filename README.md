@@ -4,16 +4,17 @@
 
 **注意，本项目仍然需要一个来自原版卡带的M64282FP摄像头模组才能工作，只是免去了拆焊主控的麻烦，以及完全用在产芯片制作，避免了一些其他可烧录相机项目中可能用到停产芯片的问题。**
 
-PCB定版后会在立创开源广场发布，预览图如下。
+~~PCB定版后会在立创开源广场发布，预览图如下。~~
+> [!NOTE]
+> lceda项目文件和Gerber已上传至[PCB目录](https://github.com/krovma/chis-pocket-camera/tree/master/PCB)
 
 A PocketCamera/GameBoy Camera replication. This project try to make a flashable GameBoy Camera that doesn't require harvesting MAC-GBD chip from the original cartridge.
 
 Because this project is derived from ChisFlash universe, I'll call it ChisPocketCamera. :)
 
 **Notice: You still need the M64282FP camera module from the original cartridge to work. The only purpose of this project is to keep your cartridge PCB intact and still get a flashable camera cartridge.**
-
-Schematic and layout are still being iterated and will be released on OSHWlab/OSHWhub when finished. Preliminary version is like this...
-![PreliminaryPCB](https://github.com/krovma/pocket-free-cam/blob/master/resources/pcb-preview.png)
+> [!NOTE]
+> EasyEDA project file, gerber files, BOMs were uploaded to [PCB folder](https://github.com/krovma/chis-pocket-camera/tree/master/PCB).
 
 FPGA: AGMicro AG32VF303VCT6
 > Great chip btw. Low-cost, integrates with ADC and XTL, and even includes a RISC-V core.
