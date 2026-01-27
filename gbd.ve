@@ -1,7 +1,8 @@
 SYSCLK 100
 BUSCLK 12.5
 
-PLL_CLKIN PIN_OSC # Use internal clock @100MHz
+#PLL_CLKIN PIN_OSC # Use internal clock @100MHz
+HSECLK 25 # Use 25MHz external OSC
 
 #####################
 # CPLD 
